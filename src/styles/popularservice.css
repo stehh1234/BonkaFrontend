@@ -1,0 +1,56 @@
+.service{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.service .text-arrow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service .text-arrow .icons{
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    color: #c0bcbc;
+}
+.service .text-arrow .icons .iconBack:hover{
+    color: #a09f9f;
+}
+.service .text-arrow .icons .iconNext:hover{
+    color: #a09f9f;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	.service .text-arrow .text{
+        font-size: 12px;
+    }
+    .service .text-arrow .icons{
+        font-size: 25px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.service .text-arrow .text{
+        font-size: 10px;
+    }
+    .service .text-arrow .icons{
+        font-size: 20px;
+    }
+}

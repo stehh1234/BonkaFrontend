@@ -1,0 +1,410 @@
+/* *{
+    font-family: 'Battambang';
+    background: #f5f5f5;
+} */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    background-color: #fff;
+    /* position: fixed; */
+    /* padding: 5px; */
+}
+/* ==================logo================== */
+
+.logo img{
+    margin-left: 40px;
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+
+}
+/* ==================search bar================== */
+.search{
+    justify-content: center;
+    align-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    
+}
+.list select,input{
+    border: 1px solid #ced4da;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+
+}
+.dropdown{
+    background-color: #ECF0F1;
+    border-radius:  4px 0px 0px 4px;
+}
+.btn-search{
+    background-color: #d9d9d9;
+    border-radius:  0px 4px 4px 0px;
+    width: 300px;
+}
+/* ==================option================== */
+.option{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.option .optionItem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.option a{
+    text-decoration: none;
+    color: #1D93FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.option a:hover{
+    text-decoration: none;
+    color: #3081ce;
+}
+.option .logIn{
+    padding: 20px;
+}
+.option .signUp{
+    padding: 20px;
+}
+.login-button{
+    margin-right: 20px;
+}
+.signup-button{
+    margin-left: 20px;
+}
+
+.login-button  button{
+    color: #1D93FF;
+    border: none;
+    background-color: #fff;
+    padding: none;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.login-button button:hover{
+    background-color: #3081ce;
+    color: white;
+    border-radius: 4px;
+}
+
+.signup-button button{
+    color: #1D93FF;
+    border: none;
+    background-color: #fff;
+    padding: none;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.signup-button button:hover{
+    background-color: #3081ce;
+    color: white;
+    border-radius: 4px;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 70px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 120px;
+        text-align: center;
+        font-size: 15px;
+    
+    }
+    .btn-search{
+        width: 200px;
+        font-size: 15px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 13px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 10px;
+    }
+    .option .signUp{
+        padding: 10px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 70px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        font-size: 13px;
+    
+    }
+    .btn-search{
+        width: 190px;
+        font-size: 13px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 11px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 8px;
+    }
+    .option .signUp{
+        padding: 8px;
+    }
+    .login-button{
+        margin-right: 5px;
+    }
+    .signup-button{
+        margin-left: 5px;
+    }
+    .login-button  button{
+        font-size: 13px;
+        font-weight: 700;
+    } 
+    .signup-button  button{
+        font-size: 13px;
+        font-weight: 700;
+    } 
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 60px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        font-size: 11px;
+    
+    }
+    .btn-search{
+        width: 130px;
+        font-size: 11px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 10px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 5px;
+    }
+    .option .signUp{
+        padding: 5px;
+    }
+    .login-button{
+        margin-right: 4px;
+    }
+    .signup-button{
+        margin-left: 4px;
+    }
+    .login-button  button{
+        font-size: 12px;
+        font-weight: 700;
+    } 
+    .signup-button  button{
+        font-size: 12px;
+        font-weight: 700;
+    } 
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 50px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+        
+    }
+    .list select{
+        height: 30px;
+        width: 60px;
+        text-align: center;
+        font-size: 9px;
+    
+    }
+    .list input{
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        font-size: 9px;
+    
+    }
+    .btn-search{
+        width: 100px;
+        font-size: 10px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 8px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 9px;
+        font-weight: 700;
+    }
+    .option .logIn{
+        padding: 2px;
+    }
+    .option .signUp{
+        padding: 2px;
+    }
+    .option .signUp{
+        padding: 2px;
+    }
+    .login-button{
+        margin-right: 2px;
+    }
+    .signup-button{
+        margin-left: 2px;
+    }
+    .login-button  button{
+        font-size: 10px;
+        font-weight: 700;
+    } 
+    .signup-button  button{
+        font-size: 10px;
+        font-weight: 700;
+    } 
+}

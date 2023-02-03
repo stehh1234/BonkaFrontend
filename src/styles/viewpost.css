@@ -1,0 +1,164 @@
+.viewpost-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.viewpost-photo{
+    width: 80%;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+.viewpost-photo .backIcon{
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.viewpost-photo .photo{
+    width: 70%;
+    height: 100%;
+}
+.viewpost-photo .photo img{
+    width: 100%;
+    height: 100%;
+}
+.viewpost-photo .nextIcon{
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.post-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.event-detail{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.event-detail .detail{
+    margin-left: 15%;
+    margin-top: 25px;
+    
+}
+.event-detail .favorite{
+    margin-right: 15%;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.event-detail .favorite:hover{
+    color: #41A1F9;
+}
+.post-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.event-description{
+    width: 80%;
+    background-color: #fff;
+}
+.event-description .description{
+    margin-left: 15%;
+    margin-top: 25px;
+    
+}
+.event-description .description textarea{
+    width: 82%;
+    height: 80px;
+}
+.service-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.servicer{
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+.servicer .servicer-detail{
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.servicer .servicer-detail img{
+    width: 75px;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.viewpost-photo{
+        width: 80%;
+        height: 150px;
+    }
+    .viewpost-photo .backIcon{
+        font-size: 20px;
+    }
+    .viewpost-photo .nextIcon{
+        font-size: 20px;
+    }
+
+    .event-detail .detail{
+        font-size: 11px;
+        
+    }
+    .event-detail .favorite{
+        font-size: 10px;
+    }
+
+    .event-description .description{
+        font-size: 11px;
+        
+    }
+    .event-description .description textarea{
+        width: 82%;
+        height: 80px;
+    }
+
+    .servicer{
+        height: 150px;
+    }
+    .servicer .servicer-detail{
+        font-size: 11px;
+    }
+    .servicer .servicer-detail img{
+        width: 30px;
+    }
+}

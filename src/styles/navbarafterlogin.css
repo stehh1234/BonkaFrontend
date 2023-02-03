@@ -1,0 +1,436 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    background-color: #fff;
+    border-bottom: 1px solid #BDC3C7;
+    /* position: fixed; */
+    /* padding: 5px; */
+}
+/* ==================logo================== */
+
+.logo img{
+    margin-left: 40px;
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+
+}
+/* ==================search bar================== */
+.search{
+    justify-content: center;
+    align-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    
+}
+.list select,input{
+    border: 0px solid #f5f5f5;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+
+}
+.dropdown{
+    background-color: #ECF0F1;
+    border-radius:  4px 0px 0px 4px;
+}
+.btn-search{
+    background-color: #d9d9d9;
+    border-radius:  0px 4px 4px 0px;
+    width: 300px;
+}
+/* ==================option================== */
+.option{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.option .optionItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.global img{
+    width: 50px;
+    height: 50px;
+}
+.heart img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 15px;
+}
+.profiles img{
+    width: 43px;
+    height: 43px;
+}
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post button{
+    width: 75px;
+    height: 33px; 
+    border-radius: 5px ; 
+    border: 1px solid white; 
+    background-color: orange; 
+    color: white;
+    margin-left: 25%;
+    /* color: black;
+    border: none;
+    background-color: #fff;
+    padding: none; */   
+}
+.post button:hover{
+    background-color: rgb(228, 149, 3);
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 70px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 120px;
+        text-align: center;
+        font-size: 15px;
+    
+    }
+    .btn-search{
+        width: 200px;
+        font-size: 15px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 13px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 10px;
+    }
+    .option .signUp{
+        padding: 10px;
+    }/* ==================option================== */
+    .global img{
+        width: 45px;
+        height: 45px;
+       
+    }
+    .heart img{
+        width: 35px;
+        height: 35px;
+        margin: 0px 10px;
+    }
+    .profiles img{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post button{
+        width: 50px;
+        height: 35px;
+        border-radius: 4px ;
+        color: white;
+        margin-left: 25%;
+        font-size: 15px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 70px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        font-size: 13px;
+    
+    }
+    .btn-search{
+        width: 190px;
+        font-size: 13px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 11px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 8px;
+    }
+    .option .signUp{
+        padding: 8px;
+    }
+    /* ==================option================== */
+    .global img{
+        width: 30px;
+        height: 30px;
+       
+    }
+    .heart img{
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px;
+    }
+    .profiles img{
+        width: 25px;
+        height: 25px;
+        
+    }
+    .post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post button{
+        width: 45px;
+        height: 35px;
+        border-radius: 4px ;
+        color: white;
+        margin-left: 25%;
+        font-size: 11px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 60px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+        
+    }
+    .list select,input{
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        font-size: 11px;
+    
+    }
+    .btn-search{
+        width: 130px;
+        font-size: 11px;
+    }
+    /* ==================option================== */
+    .option{
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .option .optionItem{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 10px;
+    }
+    .option a{
+        text-decoration: none;
+        color: #1D93FF;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .option a:hover{
+        text-decoration: none;
+        color: #3081ce;
+    }
+    .option .logIn{
+        padding: 5px;
+    }
+    .option .signUp{
+        padding: 5px;
+    }
+    /* ==================option================== */
+    .global img{
+        width: 30px;
+        height: 30px;
+       
+    }
+    .heart img{
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px;
+    }
+    .profiles img{
+        width: 25px;
+        height: 25px;
+        
+    }
+    .post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post button{
+        width: 45px;
+        height: 35px;
+        border-radius: 4px ;
+        color: white;
+        margin-left: 25%;
+        font-size: 11px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* ==================logo================== */
+    .logo img{
+        margin-left: 15px;
+        height: 50px;
+    }
+    /* ==================search bar================== */
+    .search{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+        
+    }
+    .list select,input{
+        height: 30px;
+        width: 60px;
+        text-align: center;
+        font-size: 9px;
+    
+    }
+    .btn-search{
+        width: 100px;
+        font-size: 10px;
+    }
+    /* ==================option================== */
+    .global img{
+        width: 20px;
+        height: 20px;
+       
+    }
+    .heart img{
+        width: 15px;
+        height: 15px;
+        margin: 0px 5px;
+    }
+    .profiles img{
+        width: 15px;
+        height: 15px;
+        
+    }
+    .post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post button{
+        width: 40px;
+        height: 30px;
+        border-radius: 4px ;
+        color: white;
+        margin-left: 25%;
+        font-size: 11px;
+    }
+}
