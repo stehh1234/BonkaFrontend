@@ -49,7 +49,7 @@ function Post() {
         data.append("file", photo)
         data.append("upload_preset", "bunkaimg" )
         data.append("cloud_name", "dpaen2twz")
-
+ 
         axios.post('https://api.cloudinary.com/v1_1/dpaen2twz/image/upload', data)
         .then((res)=> {
             inputs.image = res.data.url
